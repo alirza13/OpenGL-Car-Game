@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Loaders">
+      <UniqueIdentifier>{8a21dec1-ef0c-45f0-8f57-556eaa1e81d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders">
+      <UniqueIdentifier>{3dcbfaf9-9f56-47cb-9546-d0c12365df7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PNGLoader.cpp">
+      <Filter>Source Files\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Source Files\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PNGCubeLoader.cpp">
+      <Filter>Source Files\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustrum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Header Files\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PNGLoader.h">
+      <Filter>Header Files\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PNGCubeLoader.h">
+      <Filter>Header Files\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustrum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="teapot.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="cube.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="Porsche_911_GT2.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="road.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="16308_SkatePark_launchramp_v2_NEW.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="Bee.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="default.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="painting.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="85461241-texture-of-car-plastic-car-interior-texture-console-car-texture-black-and-white-plastic-texture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plant_texture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Paint-Texture-Transparent-PNG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="road.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="brick.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_lf.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_ft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_dn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_bk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_rt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_up.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="1200x630bb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_ft.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_dn.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_bk.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_lf.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_rt.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="arctic_up.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="deception_pass_up.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="deception_pass_rt.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="deception_pass_lf.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="deception_pass_bk.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="deception_pass_dn.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="deception_pass_ft.tga">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Textures.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

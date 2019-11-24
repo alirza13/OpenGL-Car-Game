@@ -1,0 +1,5 @@
+﻿  event.cpp
+c:\users\monster\onedrive\senior 1\cs 405\project\textures\textures\frustrum.h(32): warning C4091: 'static ': ignored on left of 'FrustumG::<unnamed-enum-OUTSIDE>' when no variable is declared
+c:\users\monster\onedrive\senior 1\cs 405\project\textures\textures\event.cpp(790): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\monster\onedrive\senior 1\cs 405\project\textures\textures\event.cpp(862): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Textures.vcxproj -> C:\Users\MONSTER\OneDrive\Senior 1\CS 405\PROJECT\Textures\x64\Debug\Textures.exe
